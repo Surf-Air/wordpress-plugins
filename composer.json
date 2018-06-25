@@ -1,0 +1,18 @@
+{
+  "name": "kingandpartners/pardot-wordpress",
+  "description": "Pardot Wordpress",
+  "keywords": ["wordpress", "plugin",],
+  "homepage": "https://github.com/Surf-Air/wordpress-plugins",
+  "license": "This software is NOT to be distributed, but can be INCLUDED in WP themes: Premium or Contracted.",
+  "authors": [
+    {
+      "name": "Nick Lucas",
+      "email": "nick.lucas@surfair.com",
+      "homepage": "http://www.surfair.com"
+    }
+  ],
+  "type": "wordpress-plugin",
+  "require": {
+    "composer/installers": "v1.0.6"
+  }
+}
