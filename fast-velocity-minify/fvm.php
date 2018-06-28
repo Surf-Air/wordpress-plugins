@@ -87,16 +87,6 @@ $wp_home = site_url();   # get the current wordpress installation url
 $wp_domain = trim(str_ireplace(array('http://', 'https://'), '', trim($wp_home, '/')));
 $wp_home_path = ABSPATH;
 
-# cleanup, delete any minification files older than 45 days (most probably unused files)
-if ($handle = opendir($cachedir . '/')) {
-    while (false !== ($file = readdir($handle))) {
-        $file = $cachedir . '/' . $file;
-        if (is_file($file) && time() - filemtime($file) >= 86400 * 45) {
-            unlink($file);
-        }
-    }
-    closedir($handle);
-}
 
 # default globals
 $fastvelocity_min_global_js_done = array();
@@ -1167,7 +1157,7 @@ function fastvelocity_min_merge_header_scripts()
             $hash = 'header-' . hash('adler32', implode('', $header[$i]['handles']));
 
             # create cache files and urls
-            $file = $cachedir . '/' . $hash . '-' . $ctime . '.min.js';
+            $file = $cachedir . '/' . $hash . '.min.js';
             $file_url = fvm_get_protocol($cachedirurl . '/' . $hash . '.min.js');
 
             # generate a new cache file
@@ -1312,7 +1302,7 @@ function fastvelocity_min_merge_footer_scripts()
             $hash = 'footer-' . hash('adler32', implode('', $footer[$i]['handles']));
 
             # create cache files and urls
-            $file = $cachedir . '/' . $hash . '-' . $ctime . '.min.js';
+            $file = $cachedir . '/' . $hash . '.min.js';
             $file_url = fvm_get_protocol($cachedirurl . '/' . $hash . '.min.js');
 
             # generate a new cache file
@@ -1724,7 +1714,7 @@ function fastvelocity_min_merge_header_css()
             $hash = 'header-' . hash('adler32', implode('', $header[$i]['handles']) . $inline_css_hash);
 
             # create cache files and urls
-            $file = $cachedir . '/' . $hash . '-' . $ctime . '.min.css';
+            $file = $cachedir . '/' . $hash  . '.min.css';
             $file_url = fvm_get_protocol($cachedirurl . '/' . $hash . '.min.css');
 
             # generate a new cache file
@@ -2022,7 +2012,7 @@ function fastvelocity_min_merge_footer_css()
             $hash = 'footer-' . hash('adler32', implode('', $footer[$i]['handles']) . $inline_css_hash);
 
             # create cache files and urls
-            $file = $cachedir . '/' . $hash . '-' . $ctime . '.min.css';
+            $file = $cachedir . '/' . $hash . '.min.css';
             $file_url = fvm_get_protocol($cachedirurl . '/' . $hash . '.min.css');
 
             # generate a new cache file

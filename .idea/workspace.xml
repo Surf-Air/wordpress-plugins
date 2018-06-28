@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="84c185ae-b5bc-457a-8cfd-7ce710040194" name="Default" comment="" />
+    <list default="true" id="84c185ae-b5bc-457a-8cfd-7ce710040194" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/fast-velocity-minify/fvm.php" afterPath="$PROJECT_DIR$/fast-velocity-minify/fvm.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +26,13 @@
       <file leaf-file-name="fvm.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/fast-velocity-minify/fvm.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="14" />
-              <folding />
+            <state relative-caret-position="318">
+              <caret line="280" column="41" lean-forward="true" selection-start-line="280" selection-start-column="41" selection-end-line="280" selection-end-column="41" />
+              <folding>
+                <element signature="e#6#1121#0#PHP" expanded="true" />
+                <marker date="1530212034000" expanded="true" signature="100554:101711" ph="..." />
+                <marker date="1530212034000" expanded="true" signature="100558:100635" ph="/*...*/" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -43,6 +49,11 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>$file</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -51,6 +62,7 @@
       <list>
         <option value="$PROJECT_DIR$/fast-velocity-minify/composer.json" />
         <option value="$PROJECT_DIR$/pardot-wordpress/composer.json" />
+        <option value="$PROJECT_DIR$/fast-velocity-minify/fvm.php" />
       </list>
     </option>
   </component>
@@ -95,11 +107,6 @@
               <item name="wordpress-plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="fast-velocity-minify" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="wordpress-plugins" type="b2602c69:ProjectViewProjectNode" />
-              <item name="wordpress-plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pardot-wordpress" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -133,12 +140,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1530207770819</updated>
-      <workItem from="1530207772482" duration="987000" />
+      <workItem from="1530207772482" duration="1924000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="987000" />
+    <option name="totallyTimeSpent" value="1924000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -150,7 +157,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -191,9 +198,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/fast-velocity-minify/fvm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="9" lean-forward="false" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="14" />
-          <folding />
+        <state relative-caret-position="318">
+          <caret line="280" column="41" lean-forward="true" selection-start-line="280" selection-start-column="41" selection-end-line="280" selection-end-column="41" />
+          <folding>
+            <element signature="e#6#1121#0#PHP" expanded="true" />
+            <marker date="1530212034000" expanded="true" signature="100554:101711" ph="..." />
+            <marker date="1530212034000" expanded="true" signature="100558:100635" ph="/*...*/" />
+          </folding>
         </state>
       </provider>
     </entry>
