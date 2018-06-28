@@ -1,7 +1,7 @@
 {
-  "name": "Surf-Air/pardot-wordpress",
-  "description": "Pardot Wordpress",
-  "keywords": ["wordpress", "plugin", "pardot"],
+  "name": "Surf-Air/fast-velocity-minify",
+  "description": "Wordpress plugins",
+  "keywords": ["wordpress", "plugin"],
   "homepage": "https://github.com/Surf-Air/wordpress-plugins",
   "license": "This software is NOT to be distributed, but can be INCLUDED in WP themes: Premium or Contracted.",
   "authors": [
